@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 body > div {
-    padding: 20px 400px;
+    padding: 20px 200px;
 }
 .header {
     display: flex;
