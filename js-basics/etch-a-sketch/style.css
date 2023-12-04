@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 160px;
+    height: 160px;
+}
+.row {
+    display: flex;
+    flex: 1;
+}
+.cell {
+    flex: 1;
+}
+.hover {
+    background-color: black;
+}
+.new-grid {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0px;
+    width: 164px;
+    margin: 5px 0px;    
+}
