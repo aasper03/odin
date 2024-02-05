@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar {
+    background-color: #1992D4;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 80px;
+}
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.sidebar-content > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sidebar-content > div > img {
+    width: 30px;
+    padding: 10px;
+}
+#logo-icon {
+    width: 50px;
+    padding: 0px;
+}
+.logo-text {
+    font-size: 24px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.search-icon {
+    width: 30px;
+}
+.notifications-icon {
+    width: 30px;
+}
+.account-icon {
+    width: 50px;
+    border-radius: 25px;
+}
+.dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.dashboard-top > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.searchbar {
+    border: 0px;
+    border-radius: 4px;
+    background-color: #E2E8F0;
+    color: #FFFFFF;
+    height: 28px;
+    width: 700px;
+    border-radius: 14px;
+}
+.account-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.dashboard-mid {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.dashboard-mid > div {
+    display: flex;
+    align-items: center;
+}
+.account-icon-large {
+    width: 70px;
+    border-radius: 35px;
+}
+.hi-there {
+    font-size: 12px;
+}
+.greeting-account {
+    font-size: 24px;
+}
+.mid-right-button {
+    background-color: #1992D4;
+    color: white;
+    width: 96px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15.5px;
+    text-align: center;
+    justify-content: center;
+}
+.mid-right {
+    gap: 20px;
+}
+.mid-left {
+    gap: 20px;
+}
+.greeting {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.dashboard-main {
+    background-color: #E2E8F0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cards {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 20px;
+}
+.grid-title {
+    padding-left: 200px;
+}
+.card {
+    border: 5px solid black;
+}
